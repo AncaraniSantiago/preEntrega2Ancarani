@@ -5,7 +5,6 @@ producto3={id: 3, nombre: "Contactor", categoria: "Electronica", precio:Number(6
 producto4={id: 4, nombre: "Velador Ferrolux", categoria: "Iluminacion", precio:Number(2870),cantidad:Number(0), stock:Number(30), imgUrl:"https://http2.mlstatic.com/D_NQ_NP_2X_880294-MLA40720397042_022020-F.webp"}
 ];
 const arrCarro=[]
-
 carro()
 function carro() {
   optiOn()
@@ -21,10 +20,8 @@ function carro() {
   }
   else{optiOn()}
 }  
-
 function optiOn() {
   opcion=prompt("Ingrese el numero correspondiente para acceder\n\n1 - Para ver la lista de productos\n2 - Para ver tu carrito\n3 - Confirmar compra")
-  
 }
 function verListProd() {
   todosNombres=""
