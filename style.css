@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+}
+.tarjeta{
+    margin: 5%;
+    border-radius: 10%;
+    background-color: rgba(158, 158, 158, 0.235);
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tarjeta img {
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    margin: 5%;
+}
+.tarjeta p, h3{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 50%;
+    height: 60%;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.tarjeta button{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 50%;
+    margin: 5%;
+    border-width: 0;
+    border-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
